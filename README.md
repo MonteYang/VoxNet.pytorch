@@ -26,6 +26,7 @@ final accuracy 0.8588807785888077
 ```
 
 ## Reference
+```
 @inproceedings{maturana_iros_2015,
     author = "Maturana, D. and Scherer, S.",
     title = "{VoxNet: A 3D Convolutional Neural Network for Real-Time Object Recognition}",
@@ -33,3 +34,4 @@ final accuracy 0.8588807785888077
     year = "2015",
     pdf = "/extra/voxnet_maturana_scherer_iros15.pdf",
 }
+```

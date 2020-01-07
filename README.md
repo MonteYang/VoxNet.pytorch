@@ -20,11 +20,6 @@ Train VoxNet and the model weights will output in `cls/`
 python train.py
 ```
 
-## Result
-```shell
-final accuracy 0.8588807785888077
-```
-
 ## Reference
 ```
 @inproceedings{maturana_iros_2015,

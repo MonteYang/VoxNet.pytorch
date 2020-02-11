@@ -11,6 +11,7 @@ A PyTorch implement of "VoxNet: A 3D Convolutional Neural Network for Real-Time 
 2. Convert `*.off` file to `*.binvox` file.
    ```shell
    cd utils
+   chmod +x binvox
    python off2binvox.py
    ```
 

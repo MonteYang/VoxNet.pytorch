@@ -1,5 +1,5 @@
 # binvox
-
+```shell
 Usage: binvox [-d <voxel dimension>] [-t <voxel file type>] [-c] [-v] <model filespec>
   -license: show software license
   -d: specify voxel grid size (default 256, max 1024)(no max when using -e)
@@ -27,16 +27,19 @@ Supported 3D model file formats:
   UG, OBJ, OFF, DXF, XGL, POV, BREP, PLY, JOT: only polygons supported
 Example:
 binvox -c -d 200 -t mira plane.wrl
+```
+
 
 # viewvox
 
+```shell
 Usage
 viewvox   [-ki] <model filename>
 
   -ki: keep internal voxels (removed by default)
 
 Mouse left button = rotate
-      middle      = pan 
+      middle      = pan
       right       = zoom
 Key   r           = reset view
       arrow keys  = move 1 voxel step along x (left, right) or y (up, down)
@@ -58,3 +61,6 @@ Key   r           = reset view
       g           = toggle show grid at slice level
 
 A lot of the key commands were added to make viewvox more useful when building voxel models in minecraft.http://www.patrickmin.com/minecraft
+
+```
+

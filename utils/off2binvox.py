@@ -1,8 +1,17 @@
-# coding: utf-8
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+'''
+File: off2binvox.py
+Created: 2020-01-21 21:32:40
+Author : Yangmaonan
+Email : 59786677@qq.com
+Description: 将 ModelNet10 数据集中.off文件转为binvox文件
+'''
+# TODO: 使用多进程加速文件转换速度
 import os
 import glob
 
-DATA_ROOT = '/Data1/DL-project/VoxNet.pytorch/data/ModelNet10'
+DATA_ROOT = '../data/ModelNet10'
 
 CLASSES = {'bathtub', 'chair', 'dresser', 'night_stand', 'sofa', 'toilet', 'bed', 'desk', 'monitor', 'table'}
 

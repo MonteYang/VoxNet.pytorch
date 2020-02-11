@@ -1,4 +1,13 @@
-# coding: utf-8
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+'''
+File: voxnet.py
+Created: 2020-01-21 21:32:40
+Author : Yangmaonan
+Email : 59786677@qq.com
+Description: VoxNet 网络结构
+'''
+
 import torch
 import torch.nn as nn
 from collections import OrderedDict

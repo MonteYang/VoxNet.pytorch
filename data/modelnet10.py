@@ -48,7 +48,9 @@ if __name__ == "__main__":
     idx2cls = {0: 'bathtub', 1: 'chair', 2: 'dresser', 3: 'night_stand',
                4: 'sofa', 5: 'toilet', 6: 'bed', 7: 'desk', 8: 'monitor', 9: 'table'}
 
-    dataset = ModelNet10(data_root='/Data1/DL-project/VoxNet.pytorch/data/ModelNet10', n_classes=10, idx2cls=idx2cls, split='train')
+    data_root = './ModelNet10'
+
+    dataset = ModelNet10(data_root=data_root, n_classes=10, idx2cls=idx2cls, split='train')
     cnt = len(dataset)
 
     data, cls_idx = dataset[0]['voxel'], dataset[1]['cls_idx']

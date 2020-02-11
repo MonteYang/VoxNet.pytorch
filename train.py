@@ -1,4 +1,13 @@
-# coding: utf-8
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+'''
+File: train.py
+Created: 2020-01-21 21:32:40
+Author : Yangmaonan
+Email : 59786677@qq.com
+Description:
+'''
+
 from __future__ import print_function
 import argparse
 import sys
@@ -93,7 +102,7 @@ for epoch in range(opt.n_epoch):
         pred = voxnet(voxel)  # torch.Size([256, 10])
 
         # 计算损失函数
-        
+
         loss = F.cross_entropy(pred, cls_idx)
 
         # 反向传播, 更新权重
